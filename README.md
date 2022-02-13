@@ -1,0 +1,2 @@
+# PreviewCard
+Preview Card Component
