@@ -1,0 +1,107 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background-color: #0D1A2D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    background-color: url(images/icon-view.svg);
+}
+main {
+    position: relative;
+    background-color: #15273F;
+    height: 75vh;
+    width: 45vh;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 15px;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.firstimg {
+    width: 85%;
+    margin: 2.5vh;
+    border-radius: 15px;
+    position: relative;
+}
+.secondimg {
+    position: absolute;
+    transform: translate(19vh, 18vh);
+    display: none;
+}
+.firstimg:hover {
+    cursor: pointer;
+    filter: brightness(1.5) contrast(30%) invert(0);
+}
+.firstimg:hover + .secondimg{
+    display: block;
+}
+.firstspan {
+    color: white;
+    font-size: 16px;
+    padding-left: 2.5vh;
+}
+.firstspan:hover {
+    cursor:pointer;
+}
+p {
+    color: #899DC0;
+    font-size: 14px;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    font-weight: 500;
+}
+
+.secondspan {
+    margin: 2.5vh;
+    color: #4CE0EC;
+    font-weight: 300;
+}
+.thirdspan {
+    margin: 2.5vh;
+    color: #4CE0EC;
+    font-weight: 300;
+}
+.first {
+    padding-right: 0.8vh;
+    margin-left: 2.5vh;
+    background-image: url("images/icon-ethereum.svg") ;
+    background-repeat: no-repeat;
+    display: inline;
+}
+.second {
+    margin-left: 2.5vh;
+    background-repeat: no-repeat;
+    display: inline;
+    background-image: url("images/icon-clock.svg");
+}
+section {
+    border-bottom: solid 1.5px #2E4058;
+    margin: 0 3vh;
+    padding-bottom: 2vh;
+}
+footer img {
+    width: 15%;
+    border: solid white 2px;
+    border-radius: 50%;
+}
+footer img:hover {
+    cursor: pointer;
+}
+.lastspan {
+    color: white;
+}
+.lastspan:hover {
+    cursor: pointer;
+}
+.lastdiv {
+    color: #94A8CB;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 2.5vh;
+}
